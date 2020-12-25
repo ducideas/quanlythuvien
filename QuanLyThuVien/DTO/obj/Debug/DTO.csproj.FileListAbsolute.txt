@@ -1,0 +1,12 @@
+D:\NMCNPM\QuanLyThuVienFinal\QuanLyThuVien\DTO\bin\Debug\DTO.dll
+D:\NMCNPM\QuanLyThuVienFinal\QuanLyThuVien\DTO\bin\Debug\DTO.pdb
+D:\NMCNPM\QuanLyThuVienFinal\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+D:\NMCNPM\QuanLyThuVienFinal\QuanLyThuVien\DTO\obj\Debug\DTO.dll
+D:\NMCNPM\QuanLyThuVienFinal\QuanLyThuVien\DTO\obj\Debug\DTO.pdb
+D:\NMCNPM\QuanLyThuVienFinal\QuanLyThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\Lessons\NAM4\NMCNPM\Final\QLTV_FN\QuanLyThuVien\DTO\bin\Debug\DTO.dll
+F:\Lessons\NAM4\NMCNPM\Final\QLTV_FN\QuanLyThuVien\DTO\bin\Debug\DTO.pdb
+F:\Lessons\NAM4\NMCNPM\Final\QLTV_FN\QuanLyThuVien\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+F:\Lessons\NAM4\NMCNPM\Final\QLTV_FN\QuanLyThuVien\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+F:\Lessons\NAM4\NMCNPM\Final\QLTV_FN\QuanLyThuVien\DTO\obj\Debug\DTO.dll
+F:\Lessons\NAM4\NMCNPM\Final\QLTV_FN\QuanLyThuVien\DTO\obj\Debug\DTO.pdb

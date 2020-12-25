@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3209E3B1-2399-4F2A-B357-862016D6F092}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PL</RootNamespace>
+    <AssemblyName>PL</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PL_Book_AddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Book_AddNew.designer.cs">
+      <DependentUpon>PL_Book_AddNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Book_Borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Book_Borrow.designer.cs">
+      <DependentUpon>PL_Book_Borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Book_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Book_Edit.designer.cs">
+      <DependentUpon>PL_Book_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Book_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Book_List.designer.cs">
+      <DependentUpon>PL_Book_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Book_Return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Book_Return.designer.cs">
+      <DependentUpon>PL_Book_Return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Employee.designer.cs">
+      <DependentUpon>PL_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Employee_AddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Employee_AddNew.designer.cs">
+      <DependentUpon>PL_Employee_AddNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Employee_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Employee_Edit.designer.cs">
+      <DependentUpon>PL_Employee_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Home.designer.cs">
+      <DependentUpon>PL_Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Login.Designer.cs">
+      <DependentUpon>PL_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Payment.designer.cs">
+      <DependentUpon>PL_Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Reader_AddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Reader_AddNew.designer.cs">
+      <DependentUpon>PL_Reader_AddNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Reader_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Reader_Edit.designer.cs">
+      <DependentUpon>PL_Reader_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Reader_List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Reader_List.designer.cs">
+      <DependentUpon>PL_Reader_List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Report.Designer.cs">
+      <DependentUpon>PL_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Report_BorrowBook_ByCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Report_BorrowBook_ByCategory.Designer.cs">
+      <DependentUpon>PL_Report_BorrowBook_ByCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Report_ReturnBookLate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Report_ReturnBookLate.Designer.cs">
+      <DependentUpon>PL_Report_ReturnBookLate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Setting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Setting.Designer.cs">
+      <DependentUpon>PL_Setting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Setting_AddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Setting_AddNew.Designer.cs">
+      <DependentUpon>PL_Setting_AddNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL_Setting_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL_Setting_Edit.Designer.cs">
+      <DependentUpon>PL_Setting_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL_Book_AddNew.resx">
+      <DependentUpon>PL_Book_AddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Book_Borrow.resx">
+      <DependentUpon>PL_Book_Borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Book_Edit.resx">
+      <DependentUpon>PL_Book_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Book_List.resx">
+      <DependentUpon>PL_Book_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Book_Return.resx">
+      <DependentUpon>PL_Book_Return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Employee.resx">
+      <DependentUpon>PL_Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Employee_AddNew.resx">
+      <DependentUpon>PL_Employee_AddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Employee_Edit.resx">
+      <DependentUpon>PL_Employee_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Home.resx">
+      <DependentUpon>PL_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Login.resx">
+      <DependentUpon>PL_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Payment.resx">
+      <DependentUpon>PL_Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Reader_AddNew.resx">
+      <DependentUpon>PL_Reader_AddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Reader_Edit.resx">
+      <DependentUpon>PL_Reader_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Reader_List.resx">
+      <DependentUpon>PL_Reader_List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Report.resx">
+      <DependentUpon>PL_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Report_BorrowBook_ByCategory.resx">
+      <DependentUpon>PL_Report_BorrowBook_ByCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Report_ReturnBookLate.resx">
+      <DependentUpon>PL_Report_ReturnBookLate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Setting.resx">
+      <DependentUpon>PL_Setting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Setting_AddNew.resx">
+      <DependentUpon>PL_Setting_AddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL_Setting_Edit.resx">
+      <DependentUpon>PL_Setting_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{b33e6277-49db-4e1a-a557-6a25b9944e3f}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{932ba5cb-f973-4101-a590-d186767ba243}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
